@@ -16,7 +16,7 @@ $ cd portfolio
 
 # Execute a aplicação pelo live-server
 
-Clique no botão inferior esquerdo Go Live
+Instale a extensão Live-server e depois clique no botão inferior direito Go Live
 
 ### Autor
 
