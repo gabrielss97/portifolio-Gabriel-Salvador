@@ -4,19 +4,22 @@
 	🚧  Meu portfolio 🚀 Concluído  🚧
 </h4>
 
-<img src="images/print-projeto.png" style="width: 1900px;height:860px">
+<img src="images/print-projeto.png" style="width: 100%;height:700px">
 
 # Clone este repositório
+
 $ git clone <https://github.com/gabrielss97/portifolio-Gabriel-Salvador.git>
 
 # Vá para a pasta portfolio
+
 $ cd portfolio
 
 # Execute a aplicação pelo live-server
 
-
+Clique no botão inferior esquerdo Go Live
 
 ### Autor
+
 ---
 
 <a href="http://profgabrielsalvador.com.br/">
@@ -24,8 +27,7 @@ $ cd portfolio
  <br />
  <sub><b>Gabriel Salvador</b></sub></a> <a href="http://profgabrielsalvador.com.br/" title="Rocketseat">🚀</a>
 
-
 Feito com ❤️ por Gabriel Salvador 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-ssalvador/)](https://www.linkedin.com/in/gabriel-ssalvador/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-ssalvador/)](https://www.linkedin.com/in/gabriel-ssalvador/)
 [![Gmail Badge](https://img.shields.io/badge/-gabriel.ssalvador97@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabriel.ssalvador97@gmail.com)](mailto:gabriel.ssalvador97@gmail.com)
