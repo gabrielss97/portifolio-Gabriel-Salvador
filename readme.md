@@ -4,7 +4,7 @@
 	🚧  Meu portfolio 🚀 Concluído  🚧
 </h4>
 
-<img src="images/print-projeto.png" style="width: 500px;height:800px">
+<img src="images/print-projeto.png" style="width: 1900px;height:860px">
 
 # Clone este repositório
 $ git clone <https://github.com/gabrielss97/portifolio-Gabriel-Salvador.git>
@@ -22,10 +22,10 @@ $ cd portfolio
 <a href="http://profgabrielsalvador.com.br/">
  <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4D03AQGTWTUVNZqnwA/profile-displayphoto-shrink_100_100/0/1643988029715?e=1653523200&v=beta&t=pxhJ8Y23MGvmY2UdAJuFKt34Nkn09VBYrrkAQfm7VOA" width="100px;" alt=""/>
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
+ <sub><b>Gabriel Salvador</b></sub></a> <a href="http://profgabrielsalvador.com.br/" title="Rocketseat">🚀</a>
 
 
-Feito com ❤️ por Thiago Marinho 👋🏽 Entre em contato!
+Feito com ❤️ por Gabriel Salvador 👋🏽 Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/tgmarinho) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:tgmarinho@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-ssalvador/)](https://www.linkedin.com/in/gabriel-ssalvador/) 
+[![Gmail Badge](https://img.shields.io/badge/-gabriel.ssalvador97@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabriel.ssalvador97@gmail.com)](mailto:gabriel.ssalvador97@gmail.com)
