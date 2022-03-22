@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+//variables
+$primary-color: #202125;
+$secondary-color: #dfba63;
+$third-color: white;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  @include flex-center;
+  background-color: $primary-color;
+  margin: 16px;
+}
+
+.container {
+  @include flex-center;
+  flex-direction: column;
+  gap: 20px;
+
+  &-profile {
+    @include flex-center;
+    flex-direction: column;
+    gap: 10px;
+
+    .picture {
+      width: 200px;
+      height: 200px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: $secondary-color;
+    }
+  }
+
+  &-buttons {
+    @include flex-center;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+
+    .links {
+      box-shadow: 8px 8px 0px 0px $secondary-color;
+
+      a {
+        @include flex-center;
+        min-width: 350px;
+        width: 30vw;
+        border: 2px solid black;
+        background-color: $third-color;
+        min-height: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        color: $primary-color;
+        font-size: 1.2rem;
+      }
+    }
+
+    .links a:hover {
+      transform: translateX(3px) translateY(3px);
+    }
+  }
+  .copyright {
+      margin: 20px 0;
+      color: $third-color;
+  }
+}

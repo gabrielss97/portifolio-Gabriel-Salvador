@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202125;
+  margin: 16px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container-profile .picture {
+  width: 200px;
+  height: 200px;
+}
+.container-profile h1 {
+  font-size: 2.5rem;
+  color: #dfba63;
+}
+.container-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}
+.container-buttons .links {
+  box-shadow: 8px 8px 0px 0px #dfba63;
+}
+.container-buttons .links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 350px;
+  width: 30vw;
+  border: 2px solid black;
+  background-color: white;
+  min-height: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #202125;
+  font-size: 1.2rem;
+}
+.container-buttons .links a:hover {
+  transform: translateX(3px) translateY(3px);
+}
+.container .copyright {
+  margin: 20px 0;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
