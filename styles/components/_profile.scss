@@ -1,5 +1,5 @@
-@import '../modules/mixins';
-@import '../modules/variables';
+@import '../mixins';
+@import '../variables';
 
 .profile {
     @include flex-center;

@@ -26,7 +26,7 @@
 .buttons__container {
   box-shadow: 8px 8px 0px 0px #dfba63;
 }
-.buttons__container__link {
+.buttons__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@
   color: #202125;
   font-size: 1.2rem;
 }
-.buttons__container__link:hover {
+.buttons__link:hover {
   transform: translateX(3px) translateY(3px);
 }
 
