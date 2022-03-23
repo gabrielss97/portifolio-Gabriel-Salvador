@@ -21,22 +21,24 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-.container-profile {
+
+.profile {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
-.container-profile .picture {
+.profile__picture {
   width: 200px;
   height: 200px;
 }
-.container-profile h1 {
+.profile__title {
   font-size: 2.5rem;
   color: #dfba63;
 }
-.container-buttons {
+
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,10 +46,10 @@ body {
   gap: 20px;
   list-style-type: none;
 }
-.container-buttons .links {
+.button__container {
   box-shadow: 8px 8px 0px 0px #dfba63;
 }
-.container-buttons .links a {
+.button__container__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,10 +63,11 @@ body {
   color: #202125;
   font-size: 1.2rem;
 }
-.container-buttons .links a:hover {
+.button__container__link:hover {
   transform: translateX(3px) translateY(3px);
 }
-.container .copyright {
+
+.copyright {
   margin: 20px 0;
   color: white;
 }
