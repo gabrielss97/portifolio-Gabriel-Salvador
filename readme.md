@@ -4,7 +4,7 @@
 	🚧  Meu portfolio 🚀 Concluído  🚧
 </h4>
 
-<img src="images/print-projeto.png" style="width: 100%;height:700px">
+<img src="images/print-projeto.png" style="width: 100%;height:500px">
 
 # Clone este repositório
 
