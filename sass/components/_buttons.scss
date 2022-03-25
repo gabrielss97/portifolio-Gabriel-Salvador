@@ -1,71 +1,85 @@
-@import "../utils/mixins";
-@import "../utils/variables";
+@use "../utils/mixins";
+@use "../utils/variables";
+@use "../utils/breakpoints";
+
 
 .buttons {
-  @include flex-center;
+  @include mixins.flex-center;
   flex-direction: column;
-  gap: $gap-size;
+  gap: variables.$gap-size;
   list-style-type: none;
 
   &__container {
-    box-shadow: 8px 8px 0px 0px $secondary-color;
+    box-shadow: 8px 8px 0px 0px variables.$secondary-color;
   }
 
   &__link {
-    @include flex-center;
+    @include mixins.flex-center;
     min-width: 350px;
     width: 30vw;
     border: 2px solid black;
-    background-color: $third-color;
+    background-color: variables.$third-color;
     min-height: 50px;
     cursor: pointer;
     text-decoration: none;
-    color: $primary-color;
+    color: variables.$primary-color;
     font-size: 1.2rem;
+
+    @include breakpoints.sm {
+      width: 70vw;
+    }
+
+    @include breakpoints.lg {
+      width: 60vw;
+    }
+
+    @include breakpoints.xl {
+      width: 40vw;
+    }
 
     &:hover {
       transform: translateX(3px) translateY(3px);
     }
 
     &--yt:hover {
-      background-color: $yt-color;
-      color: $third-color;
+      background-color: variables.$yt-color;
+      color: variables.$third-color;
       transition: 0.2s ease-in;
     }
 
     &--twitch:hover {
-      background-color: $twitch-color;
-      color: $third-color;
+      background-color: variables.$twitch-color;
+      color: variables.$third-color;
       transition: 0.2s ease-in;
     }
 
     &--insta:hover {
-      background-color: $insta-color;
-      color: $third-color;
+      background-color: variables.$insta-color;
+      color: variables.$third-color;
       transition: 0.2s ease-in;
     }
 
     &--discord:hover {
-      background-color: $discord-color;
-      color: $third-color;
+      background-color: variables.$discord-color;
+      color: variables.$third-color;
       transition: 0.2s ease-in;
     }
 
     &--superprof:hover {
-      background-color: $superprof-color;
-      color: $third-color;
+      background-color: variables.$superprof-color;
+      color: variables.$third-color;
       transition: 0.2s ease-in;
     }
 
     &--github:hover {
-      background-color: $github-color;
-      color: $third-color;
+      background-color: variables.$github-color;
+      color: variables.$third-color;
       transition: 0.2s ease-in;
     }
 
     &--linkedin:hover {
-      background-color: $linkedin-color;
-      color: $third-color;
+      background-color: variables.$linkedin-color;
+      color: variables.$third-color;
       transition: 0.2s ease-in;
     }
   }

@@ -1,10 +1,10 @@
 //modules
-@import "./utils/variables";
-@import "./utils/mixins";
+@use "./utils/variables";
+@use "./utils/mixins";
 
 //components
-@import "./components/profile";
-@import "./components/buttons";
+@use "./components/profile";
+@use "./components/buttons";
 
 //font-family
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
@@ -18,22 +18,25 @@
 
 body {
   //module mixins
-  @include flex-center;
-  background-color: $primary-color;
+  @include mixins.flex-center;
+  background-color: variables.$primary-color;
   margin: 16px;
+
 }
 
 .container {
   //module mixins
-  @include flex-center;
+  @include mixins.flex-center;
   flex-direction: column;
-  gap: $gap-size;
-
+  gap: variables.$gap-size;
+  
   //profile component go here
   //buttons component go here
+
+  
 }
 
 .copyright {
-  margin: $gap-size 0;
-  color: $third-color;
+  margin: variables.$gap-size;
+  color: variables.$third-color;
 }
