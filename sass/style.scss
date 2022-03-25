@@ -1,6 +1,6 @@
 //modules
-@import "variables";
-@import "mixins";
+@import "./utils/variables";
+@import "./utils/mixins";
 
 //components
 @import "./components/profile";
@@ -28,7 +28,7 @@ body {
   @include flex-center;
   flex-direction: column;
   gap: $gap-size;
-  
+
   //profile component go here
   //buttons component go here
 }

@@ -1,0 +1,72 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+.buttons {
+  @include flex-center;
+  flex-direction: column;
+  gap: $gap-size;
+  list-style-type: none;
+
+  &__container {
+    box-shadow: 8px 8px 0px 0px $secondary-color;
+  }
+
+  &__link {
+    @include flex-center;
+    min-width: 350px;
+    width: 30vw;
+    border: 2px solid black;
+    background-color: $third-color;
+    min-height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: $primary-color;
+    font-size: 1.2rem;
+
+    &:hover {
+      transform: translateX(3px) translateY(3px);
+    }
+
+    &--yt:hover {
+      background-color: $yt-color;
+      color: $third-color;
+      transition: 0.2s ease-in;
+    }
+
+    &--twitch:hover {
+      background-color: $twitch-color;
+      color: $third-color;
+      transition: 0.2s ease-in;
+    }
+
+    &--insta:hover {
+      background-color: $insta-color;
+      color: $third-color;
+      transition: 0.2s ease-in;
+    }
+
+    &--discord:hover {
+      background-color: $discord-color;
+      color: $third-color;
+      transition: 0.2s ease-in;
+    }
+
+    &--superprof:hover {
+      background-color: $superprof-color;
+      color: $third-color;
+      transition: 0.2s ease-in;
+    }
+
+    &--github:hover {
+      background-color: $github-color;
+      color: $third-color;
+      transition: 0.2s ease-in;
+    }
+
+    &--linkedin:hover {
+      background-color: $linkedin-color;
+      color: $third-color;
+      transition: 0.2s ease-in;
+    }
+  }
+}

@@ -43,6 +43,41 @@
 .buttons__link:hover {
   transform: translateX(3px) translateY(3px);
 }
+.buttons__link--yt:hover {
+  background-color: #ff0000;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.buttons__link--twitch:hover {
+  background-color: #8A43F2;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.buttons__link--insta:hover {
+  background-color: #E2612F;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.buttons__link--discord:hover {
+  background-color: #525DEA;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.buttons__link--superprof:hover {
+  background-color: #F25E5E;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.buttons__link--github:hover {
+  background-color: #4d4d4d;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.buttons__link--linkedin:hover {
+  background-color: #0961B8;
+  color: white;
+  transition: 0.2s ease-in;
+}
 
 * {
   margin: 0;
