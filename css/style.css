@@ -1,20 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-.profile {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-}
-.profile__picture {
-  width: 200px;
-  height: 200px;
-}
-.profile__title {
-  font-size: 2.5rem;
-  color: #dfba63;
-}
-
 .buttons {
   display: flex;
   align-items: center;
@@ -55,6 +39,11 @@
     width: 40vw;
   }
 }
+@media (min-width: 2000px) {
+  .buttons__link {
+    width: 30vw;
+  }
+}
 .buttons__link:hover {
   transform: translateX(3px) translateY(3px);
 }
@@ -92,6 +81,22 @@
   background-color: #0961B8;
   color: white;
   transition: 0.2s ease-in;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile__picture {
+  width: 200px;
+  height: 200px;
+}
+.profile__title {
+  font-size: 2.5rem;
+  color: #dfba63;
 }
 
 * {

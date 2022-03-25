@@ -1,10 +1,9 @@
 //modules
-@use "./utils/variables";
-@use "./utils/mixins";
+@use "./utils" as *;
 
 //components
-@use "./components/profile";
-@use "./components/buttons";
+@use "./components";
+
 
 //font-family
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
@@ -18,17 +17,17 @@
 
 body {
   //module mixins
-  @include mixins.flex-center;
-  background-color: variables.$primary-color;
+  @include flex-center;
+  background-color: $primary-color;
   margin: 16px;
 
 }
 
 .container {
   //module mixins
-  @include mixins.flex-center;
+  @include flex-center;
   flex-direction: column;
-  gap: variables.$gap-size;
+  gap: $gap-size;
   
   //profile component go here
   //buttons component go here
@@ -37,6 +36,6 @@ body {
 }
 
 .copyright {
-  margin: variables.$gap-size;
-  color: variables.$third-color;
+  margin: $gap-size;
+  color: $third-color;
 }

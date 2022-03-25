@@ -1,10 +1,9 @@
-@use "../utils/mixins";
-@use "../utils/variables";
+@use "../utils" as *;
 
 .profile {
-  @include mixins.flex-center;
+  @include flex-center;
   flex-direction: column;
-  gap: variables.$gap-size;
+  gap: $gap-size;
 
   &__picture {
     width: 200px;
@@ -13,6 +12,6 @@
 
   &__title {
     font-size: 2.5rem;
-    color: variables.$secondary-color;
+    color: $secondary-color;
   }
 }
