@@ -4,7 +4,6 @@
 //components
 @use "./components";
 
-
 //font-family
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
@@ -16,23 +15,15 @@
 }
 
 body {
-  //module mixins
   @include flex-center;
   background-color: $primary-color;
   margin: 16px;
-
 }
 
 .container {
-  //module mixins
   @include flex-center;
   flex-direction: column;
   gap: $gap-size;
-  
-  //profile component go here
-  //buttons component go here
-
-  
 }
 
 .copyright {
